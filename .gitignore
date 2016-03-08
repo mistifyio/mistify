@@ -3,6 +3,9 @@
 *.a
 *.so
 
+# Compiled cmds
+cmd/zfs-provider/zfs-provider
+
 # Folders
 _obj
 _test
