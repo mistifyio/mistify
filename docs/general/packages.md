@@ -3,8 +3,6 @@ MistifyOS Package Inventory
 Package: *acpid*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -26,8 +24,6 @@ Package: *acpid*
 
 Package: *ansible*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -968,8 +964,6 @@ Package: *ansible*
 Package: *arptables*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -985,8 +979,6 @@ Package: *arptables*
 
 Package: *aufs-util*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1011,8 +1003,6 @@ Package: *aufs-util*
 
 Package: *bash*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1066,8 +1056,6 @@ Package: *bash*
 Package: *beanstalkd*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -1089,8 +1077,6 @@ Package: *beanstalkd*
 
 Package: *bind*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1162,8 +1148,6 @@ comment "bind needs a toolchain w/ dynamic library"
 Package: *biosdevname*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1186,8 +1170,6 @@ Package: *biosdevname*
 Package: *bridge-utils*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1205,8 +1187,6 @@ Package: *bridge-utils*
 Package: *ca-certificates-bundle*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1220,8 +1200,6 @@ Package: *ca-certificates-bundle*
 
 Package: *confd*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1238,8 +1216,6 @@ Package: *confd*
 
 Package: *coreutils*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1410,8 +1386,6 @@ Package: *coreutils*
 Package: *cpuload*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1429,8 +1403,6 @@ Package: *cpuload*
 
 Package: *dbus-cpp*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1458,8 +1430,6 @@ comment "dbus-c++ needs a uClibc or (e)glibc toolchain w/ C++, threads"
 Package: *dbus-glib*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1482,8 +1452,6 @@ comment "dbus-glib needs a toolchain w/ wchar, threads"
 Package: *dbus-triggerd*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1505,8 +1473,6 @@ comment "dbus-triggerd needs a toolchain w/ threads"
 
 Package: *dcron*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1534,8 +1500,6 @@ Package: *dcron*
 Package: *debianutils*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1561,8 +1525,6 @@ Package: *debianutils*
 
 Package: *dhcp*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1612,8 +1574,6 @@ endif
 
 Package: *diffutils*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1668,8 +1628,6 @@ comment "diffutils needs a toolchain w/ wchar"
 Package: *dmidecode*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1690,8 +1648,6 @@ Package: *dmidecode*
 
 Package: *dnsmasq*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1765,8 +1721,6 @@ endif
 Package: *e2fsprogs*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1823,8 +1777,6 @@ config BR2_PACKAGE_E2FSPROGS_BADBLOCKS
 
 Package: *ed*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -1915,8 +1867,6 @@ Package: *ed*
 Package: *elfutils*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1976,8 +1926,6 @@ endif
 Package: *ethtool*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -1994,8 +1942,6 @@ Package: *ethtool*
 
 Package: *findutils*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2064,8 +2010,6 @@ comment "findutils needs a toolchain w/ wchar"
 Package: *ftop*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2082,8 +2026,6 @@ Package: *ftop*
 
 Package: *gawk*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2159,8 +2101,6 @@ comment "gawk needs a toolchain w/ wchar, dynamic library"
 Package: *gptfdisk*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2208,8 +2148,6 @@ endif
 
 Package: *grep*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2275,8 +2213,6 @@ comment "grep needs a toolchain w/ wchar"
 Package: *gzip*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2310,8 +2246,6 @@ comment "gzip needs a toolchain w/ wchar"
 Package: *hdparm*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2327,8 +2261,6 @@ Package: *hdparm*
 
 Package: *htop*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2349,8 +2281,6 @@ Package: *htop*
 Package: *hwdata*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2366,8 +2296,6 @@ Package: *hwdata*
 
 Package: *ifupdown*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2390,8 +2318,6 @@ comment "ifupdown needs an (e)glibc or musl toolchain w/ headers >= 3.0"
 
 Package: *infozip*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2416,8 +2342,6 @@ Package: *infozip*
 Package: *intel-microcode*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2434,8 +2358,6 @@ Package: *intel-microcode*
 Package: *iostat*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2451,8 +2373,6 @@ Package: *iostat*
 
 Package: *ipmitool*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2491,8 +2411,6 @@ endif
 Package: *ipset*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2510,8 +2428,6 @@ Package: *ipset*
 
 Package: *iputils*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2539,8 +2455,6 @@ Package: *iputils*
 Package: *ipxe*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2557,8 +2471,6 @@ Package: *ipxe*
 
 Package: *irqbalance*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2582,8 +2494,6 @@ Package: *irqbalance*
 Package: *iucode-tool*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2600,8 +2510,6 @@ Package: *iucode-tool*
 Package: *less*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2617,8 +2525,6 @@ Package: *less*
 
 Package: *libcurl*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2647,8 +2553,6 @@ endif
 Package: *libxslt*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -2674,8 +2578,6 @@ Package: *libxslt*
 
 Package: *linux-firmware*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -2963,8 +2865,6 @@ endif
 Package: *lochness*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -2987,8 +2887,6 @@ Package: *lochness*
 Package: *lochness-ansible*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -3002,8 +2900,6 @@ Package: *lochness-ansible*
 
 Package: *logrotate*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3025,8 +2921,6 @@ comment "logrotate needs a toolchain w/ wchar"
 
 Package: *lshw*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3053,8 +2947,6 @@ comment "lshw needs a toolchain w/ C++, wchar"
 Package: *lsof*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3072,8 +2964,6 @@ Package: *lsof*
 
 Package: *lua*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3144,8 +3034,6 @@ endif
 Package: *lz4*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3168,8 +3056,6 @@ Package: *lz4*
 Package: *lzip*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3190,8 +3076,6 @@ Package: *lzip*
 Package: *lzop*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3209,8 +3093,6 @@ Package: *lzop*
 Package: *makedevs*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3225,8 +3107,6 @@ Package: *makedevs*
 
 Package: *memstat*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3248,8 +3128,6 @@ Package: *memstat*
 Package: *mii-diag*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3264,8 +3142,6 @@ Package: *mii-diag*
 
 Package: *mistify-agent-docker*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3284,8 +3160,6 @@ Package: *mistify-agent-docker*
 Package: *mistify-agent-image*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -3303,8 +3177,6 @@ Package: *mistify-agent-image*
 
 Package: *mistify-agent-libvirt*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3325,8 +3197,6 @@ Could not find package directory for mistify-agent-service
 Package: *mistify-agent-service*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -3342,8 +3212,6 @@ Package: *mistify-agent-service*
 
 Package: *nano*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3375,8 +3243,6 @@ comment "nano needs a toolchain w/ wchar"
 Package: *net-tools*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3406,8 +3272,6 @@ Package: *net-tools*
 
 Package: *nftables*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3439,8 +3303,6 @@ comment "nftables needs a toolchain w/ wchar, headers >= 3.4"
 
 Package: *nodejs*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3519,8 +3381,6 @@ endif
 
 Package: *ntp*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3626,8 +3486,6 @@ endif
 Package: *openssh*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3659,8 +3517,6 @@ Package: *openssh*
 
 Package: *openvswitch*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3780,8 +3636,6 @@ Package: *openvswitch*
 Package: *parted*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3831,8 +3685,6 @@ comment "parted needs a toolchain w/ wchar"
 Package: *patch*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3854,8 +3706,6 @@ Could not find package directory for procs-ng
 Package: *procs-ng*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3874,8 +3724,6 @@ comment "patch needs a toolchain w/ wchar"
 
 Package: *psmisc*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3925,8 +3773,6 @@ Package: *psmisc*
 Package: *python-daemon*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -3959,8 +3805,6 @@ Package: *python-daemon*
 
 Package: *python-markupsafe*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -3995,8 +3839,6 @@ Package: *python-markupsafe*
 Package: *python-netifaces*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4018,8 +3860,6 @@ Package: *python-netifaces*
 Package: *python-pypcap*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4036,8 +3876,6 @@ Package: *python-pypcap*
 
 Package: *qemu*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4196,8 +4034,6 @@ endif # BR2_PACKAGE_QEMU
 Package: *queensland*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -4213,8 +4049,6 @@ Could not find package directory for rootfsiso9660
 Package: *rootfsiso9660*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
         help
@@ -4227,8 +4061,6 @@ Package: *rootfsiso9660*
 
 Package: *rsync*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4245,8 +4077,6 @@ Package: *rsync*
 
 Package: *rsyslog*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4307,8 +4137,6 @@ comment "rsyslog needs a toolchain w/ threads, dynamic library"
 Package: *screen*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4348,8 +4176,6 @@ Package: *screen*
 Package: *sdparm*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4367,8 +4193,6 @@ Package: *sdparm*
 
 Package: *sed*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4427,8 +4251,6 @@ comment "sed needs a toolchain w/ wchar"
 Package: *setserial*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4442,8 +4264,6 @@ Package: *setserial*
 
 Package: *skeleton*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4470,8 +4290,6 @@ Package: *skeleton*
 Package: *smartmontools*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4497,8 +4315,6 @@ comment "smartmontools needs a toolchain w/ C++"
 
 Package: *statsd*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4534,8 +4350,6 @@ Package: *statsd*
 Package: *statserial*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4556,8 +4370,6 @@ Package: *statserial*
 Package: *strace*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4576,8 +4388,6 @@ Package: *strace*
 
 Package: *sudo*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4660,8 +4470,6 @@ Package: *sudo*
 Package: *sysprof*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4700,8 +4508,6 @@ comment "sysprof needs a toolchain w/ wchar, threads"
 
 Package: *sysstat*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4771,8 +4577,6 @@ Package: *sysstat*
 Package: *tar*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4832,8 +4636,6 @@ comment "tar needs a toolchain w/ wchar"
 Package: *tcpdump*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4859,8 +4661,6 @@ endif
 Package: *tftpd*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4875,8 +4675,6 @@ Package: *tftpd*
 
 Package: *time*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4895,8 +4693,6 @@ Could not find package directory for toolchain
 Package: *toolchain*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -4911,8 +4707,6 @@ Package: *toolchain*
 
 Package: *tree*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -4935,8 +4729,6 @@ comment "tree needs a toolchain w/ wchar"
 
 Package: *tzdata*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -5896,8 +5688,6 @@ Package: *tzdata*
 
 Package: *vim*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
@@ -7045,8 +6835,6 @@ comment "vim needs a toolchain w/ wchar"
 Package: *wget*
 -------------
 
-**Needed for:** 
-
 ### Comments from Config.in
 ```
 	help
@@ -7106,8 +6894,6 @@ comment "wget needs a toolchain w/ wchar"
 
 Package: *which*
 -------------
-
-**Needed for:** 
 
 ### Comments from Config.in
 ```
