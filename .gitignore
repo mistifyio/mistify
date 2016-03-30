@@ -7,6 +7,7 @@
 cmd/coordinator-cli/coordinator-cli
 cmd/coordinator/coordinator
 cmd/zfs-provider/zfs-provider
+cmd/metrics-provider/metrics-provider
 
 # Folders
 _obj
